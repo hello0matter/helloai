@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的图片画廊</title>
+    <style>
+        /* 这里是CSS样式 */
+        body {
+            /* 让整个页面背景色柔和一点 */
+            background-color: #f0f2f5;
+            /* 让所有内容（图片）在页面上水平居中 */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            /* 标题样式 */
+            color: #333;
+            font-family: sans-serif;
+        }
+
+        img {
+            /* 限制图片的最大宽度，防止图片过大撑破屏幕 */
+            max-width: 90%;
+            /* 也可以设置一个固定的最大像素值 */
+            /* max-width: 800px; */
+
+            /* 让图片高度自动缩放，保持比例 */
+            height: auto;
+
+            /* 在每张图片下方增加 20px 的间距 */
+            margin-bottom: 20px;
+
+            /* 给图片加一点圆角和阴影，看起来更立体 */
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<h1>我的图片集</h1>
+
+<img src="1.jpg" alt="图片1">
+<img src="2.jpg" alt="图片2">
+<img src="3.jpg" alt="图片3">
+<img src="4.jpg" alt="图片4">
+<img src="5.jpg" alt="图片5">
+<img src="6.jpg" alt="图片6">
+<img src="7.jpg" alt="图片7">
+<img src="8.jpg" alt="图片8">
+<img src="9.jpg" alt="图片9">
+<img src="10.jpg" alt="图片10">
+<img src="11.jpg" alt="图片11">
+<img src="12.jpg" alt="图片12">
+
+</body>
+</html>
